@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "seed": "tsx src/server-app/scripts/seed-db.ts",
-    "dev": "tsx watch src/server-app/server.ts --api",
+    "dev": "tsx watch src/server-app/server.ts",
     "start": "node dist/server-app/server.js"
   },
   "keywords": [],
